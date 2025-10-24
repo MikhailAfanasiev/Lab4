@@ -6,21 +6,22 @@
 -данная задача, не имеет и не должна содержать каких-то индивидуальных кастомных элементов,
 поэтому можно использовать Bootstrap, для быстрого написания данного лендинга
 *пример карточки из лендинга, написанный с подходом Bootstrap:
-<div class="col-md-4 mb-4">
+"<div class="col-md-4 mb-4">
                     <div class="card feature-card shadow-sm h-100">
                         <div class="card-body text-center">
                             <h5 class="card-title">Умная автоматизация</h5>
                             <p class="card-text">Автоматизируйте рутинные задачи с помощью искусственного интеллекта.</p>
                         </div>
                     </div>
-                </div>
+                </div>"
 Карточка, написанная с помощью Tailwind:
-<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-2 transition">
+"<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-2 transition">
                     <h3 class="text-xl font-semibold mb-3">Умная автоматизация</h3>
                     <p class="text-gray-600">Автоматизируйте рутинные задачи с помощью искусственного интеллекта.</p>
-                </div>
+                </div>"
 Видим, что Bootstrap имеет компонент, необходимый нам для проектирования карточки лендинга, в отличие от Tailwind
 В Tailwind мы больше тратим время для настройки компонента карточки лендинга, поэтому в данной задаче, в которой нет
 никаких кастомизированных элементов очень хорошо подходит подход Bootstrap
 *Были небольшие сложности в понимании как создаются компоненты в подходе Tailwind, что как и за что отвечает та или иная настройка
 *ИИ помог создать html-файлы двух подходов Tailwind и Bootstrap
+
