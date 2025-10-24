@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Assistant Pro - ваш умный помощник для повышения продуктивности">
+    <meta name="keywords" content="AI, искусственный интеллект, помощник, продуктивность">
+    <meta name="author" content="xAI">
+    <title>AI Assistant Pro</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Кастомные стили для градиента */
+        .hero-gradient {
+            background: linear-gradient(135deg, #f32d2d, #ee6516);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased">
+    <!-- Хедер -->
+    <header class="bg-gray-900 text-white">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">AI Assistant Pro</a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#features" class="hover:text-blue-300">Преимущества</a>
+                <a href="#about" class="hover:text-blue-300">О продукте</a>
+                <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Попробовать</a>
+            </div>
+            <!-- Мобильное меню -->
+            <button class="md:hidden focus:outline-none" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Мобильное меню (скрытое по умолчанию) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 text-white">
+            <a href="#features" class="block px-4 py-2 hover:bg-gray-700">Преимущества</a>
+            <a href="#about" class="block px-4 py-2 hover:bg-gray-700">О продукте</a>
+            <a href="#" class="block px-4 py-2 bg-blue-600 text-white hover:bg-blue-700">Попробовать</a>
+        </div>
+    </header>
+
+    <!-- Секция с описанием -->
+    <section class="hero-gradient text-white py-20 text-center">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">AI Assistant Pro</h1>
+            <p class="text-lg md:text-xl mb-6 max-w-2xl mx-auto">Ваш умный помощник для автоматизации задач и повышения продуктивности</p>
+            <a href="#" class="bg-white text-blue-600 px-6 py-3 rounded-md font-semibold hover:bg-gray-100">Узнать больше</a>
+        </div>
+    </section>
+
+    <!-- Блок преимуществ -->
+    <section id="features" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Почему выбирают AI Assistant Pro?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Карточка 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-2 transition">
+                    <h3 class="text-xl font-semibold mb-3">Умная автоматизация</h3>
+                    <p class="text-gray-600">Автоматизируйте рутинные задачи с помощью искусственного интеллекта.</p>
+                </div>
+                <!-- Карточка 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-2 transition">
+                    <h3 class="text-xl font-semibold mb-3">Персонализация</h3>
+                    <p class="text-gray-600">Настройте помощника под ваши уникальные потребности.</p>
+                </div>
+                <!-- Карточка 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-2 transition">
+                    <h3 class="text-xl font-semibold mb-3">Круглосуточная поддержка</h3>
+                    <p class="text-gray-600">Получайте помощь в любое время с нашей службой поддержки.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="bg-gray-200 py-6 text-center">
+        <div class="container mx-auto px-4">
+            <p class="text-gray-600">&copy; 2025 AI Assistant Pro. Все права защищены.</p>
+            <div class="mt-2">
+                <a href="#" class="text-gray-500 hover:text-gray-700 mx-2">Политика конфиденциальности</a>
+                <a href="#" class="text-gray-500 hover:text-gray-700 mx-2">Условия использования</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Простой скрипт для мобильного меню -->
+    <script>
+        // Tailwind не требует дополнительных JS-библиотек, но добавим тоггл для мобильного меню
+    </script>
+</body>
+</html>
